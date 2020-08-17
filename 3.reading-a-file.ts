@@ -18,4 +18,6 @@ for (const filename of walkSync('.')) {
         console.log('');
     }
 }
- 
+
+// Command to run:
+// deno run --allow-read --unstable 3.reading-a-file.ts
